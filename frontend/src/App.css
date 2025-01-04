@@ -1,0 +1,43 @@
+.customShadow{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+.userTable{
+    @apply bg-white
+}
+.userTable th{
+    @apply border text-base font-medium
+}
+.userTable td{
+    @apply border text-base text-center
+}
+.scrollbar-none::-webkit-scrollbar{
+    display: none;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-img {
+    height: 40px; /* Adjust as needed */
+  }
+  
+  @media (min-width: 768px) {
+    .logo-img {
+      height: 56px; /* Larger height for bigger screens */
+    }
+  }
+  
+  .logo-text {
+    display: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #374151; /* Gray-700 */
+    margin-left: 8px;
+  }
+  
+  @media (min-width: 640px) {
+    .logo-text {
+      display: inline-block;
+    }
+  }

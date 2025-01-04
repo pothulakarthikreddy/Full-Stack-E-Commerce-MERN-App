@@ -1,0 +1,4 @@
+MONGODB_URL,
+FRONTEND_URL,
+TOKEN_SECRET_KEY
+/node_modules
