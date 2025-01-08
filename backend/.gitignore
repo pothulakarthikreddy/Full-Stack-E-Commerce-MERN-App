@@ -3,4 +3,7 @@ FRONTEND_URL,
 TOKEN_SECRET_KEY
 /node_modules
 .env
+<<<<<<< HEAD
 
+=======
+>>>>>>> 922c8a8df9188a9d83c4fab2827920b9f05056a3
